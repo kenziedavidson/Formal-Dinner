@@ -1,3 +1,4 @@
 # Formal-Dinner
 Python Code to randomly select 7 Kitchen staff, 31 waiters, and seat the remaining students at 31 tables. The student information comes from an initial csv file, and the output of this code is a separate csv file that updates each time the code is run. At the moment I am still working on a version of this that uses a function. I have one that does not randomize the output csv each time and I'm trying to fix that. 
 In this version, I found code online that strips the information in the initial csv file down so that I only have to manage a list of first and last names, not the previous assignments or grades. Then I created lists for each assignment with the amount of students that can be assigned. For each list, I wanted to make sure that no one was repeated so I used .difference to subtract lists. This would give me the remaining unassigned students each time. 
+Worked on this step of the project with my mom, Will, and Jess. 
